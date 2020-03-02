@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from './components/layout/Navbar';
-import Search from './components/stock/Search';
+import Portfolio from './views/Porfolio';
+import Trade from './views/Trade';
+import StockInfo from './views/StockInfo';
+import Account from './views/Account';
 
 class App extends Component {
   render() {
