@@ -14,6 +14,12 @@ const Navbar = () => {
         className='float-right text-white mt-1 mr-10 hover:text-purple-400'
         href=''
       >
+        Trade
+      </a>
+      <a
+        className='float-right text-white mt-1 mr-10 hover:text-purple-400'
+        href=''
+      >
         Portfolio
       </a>
     </nav>
