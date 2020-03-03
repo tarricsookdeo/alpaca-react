@@ -12,6 +12,12 @@ class App extends Component {
       <Router>
         <div className='App'>
           <Navbar />
+          <Switch>
+            <Route path='/' exact component={Portfolio} />
+            <Route path='/trade' exact component={Trade} />
+            <Route path='/stockinfo' exact component={StockInfo} />
+            <Route path='/account' exact component={Account} />
+          </Switch>
         </div>
       </Router>
     );
