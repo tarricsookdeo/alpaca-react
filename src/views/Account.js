@@ -6,6 +6,10 @@ class Account extends Component {
   };
 
   componentDidMount() {
+    this.getAccountInfo();
+  }
+
+  getAccountInfo = () => {
     fetch('https://paper-api.alpaca.markets/v2/account', {
       method: 'GET',
       headers: {
@@ -22,7 +26,7 @@ class Account extends Component {
       .catch(error => {
         console.error('Error:', error);
       });
-  }
+  };
 
   render() {
     return (
